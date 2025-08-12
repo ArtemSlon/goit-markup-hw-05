@@ -520,6 +520,10 @@ margin-left: 80px;
 align-items: flex-end;
 }
 
+.subscribe-text-container {
+display: block;
+}
+
 .subscribe-text {
 display: block;
 font-weight: 500;
