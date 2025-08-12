@@ -665,6 +665,8 @@ margin-bottom: 8px;
 }
 
 .form-fild-label {
+    display: block;
+    margin-bottom: 4px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -674,7 +676,6 @@ margin-bottom: 8px;
 
 .input-fild-wrapper {
 position: relative;
-margin-top: 4px;
 }
 
 .input-fild {
@@ -764,6 +765,7 @@ margin-bottom: 24px;
 .input-fild-checkbox:checked + .form-fild-label > .form-custom-checkbox {
   background-color: #404BBF; 
   fill: #f4f4fd; 
+  border: none;
 }
 
 
