@@ -514,10 +514,7 @@ display: flex;
 .subscribe-fild {
 width: 453px;
 height: 80px;
-display: flex;
-gap: 24px;
 margin-left: 80px;
-align-items: flex-end;
 }
 
 .subscribe-text {
@@ -529,6 +526,15 @@ font-weight: 500;
     color: #FFFFFF;
     margin-bottom: 16px;
 
+}
+
+.subscribe-form {
+display: flex;
+gap: 24px;
+}
+
+.subscribe-label {
+display: none;
 }
 
 .subscribe-input {
