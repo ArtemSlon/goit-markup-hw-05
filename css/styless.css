@@ -534,6 +534,9 @@ gap: 24px;
 }
 
 .subscribe-input {
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
 display: block;
 border: 1px solid #fff;
     border-radius: 4px;
@@ -542,6 +545,7 @@ border: 1px solid #fff;
     background-color: transparent;
     padding-left: 16px;
     color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)
     
 }
 
@@ -561,13 +565,15 @@ border: 1px solid #fff;
     color: #fff;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
-    display: inline-flex;
+    cursor: pointer;
+    border: none;
+    display: flex;
     align-items: center;
-    gap: 16px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .submit-button:hover {
@@ -576,6 +582,7 @@ background-color: #404BBF;
 
 .svg-footer-send {
 fill: #FFFFFF;
+margin-left: 16px;
 }
 
 /*footer*/
