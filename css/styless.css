@@ -533,10 +533,6 @@ display: flex;
 gap: 24px;
 }
 
-.subscribe-label {
-display: none;
-}
-
 .subscribe-input {
 display: block;
 border: 1px solid #fff;
